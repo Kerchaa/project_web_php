@@ -1,0 +1,76 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.light-mode {
+    background-color: #f0f8ff;
+    color: #000;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e90ff;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 40px;
+    border-radius: 2%; /* Makes the logo borders rounded */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px; /* Added padding for hover effect */
+    border-radius: 4px; /* Added border-radius for smoother corners */
+    border: 2px solid transparent; /* Initially transparent border */
+}
+
+.nav-links a:hover {
+    border-color: #fff; /* Changes border color on hover */
+}
+
+/* Mode switch styles */
+#mode-switch {
+    background-color: transparent;
+    border: 2px solid transparent; /* Initially transparent border */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#mode-switch:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #fff; /* Changes border color on hover */
+}
+
+#mode-icon {
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}

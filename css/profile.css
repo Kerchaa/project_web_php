@@ -1,0 +1,103 @@
+/* profile.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.profile-info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-info th, .profile-info td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.profile-info th {
+    background-color: #f3f3f3;
+    font-weight: bold;
+}
+
+.add-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+.profile-rides {
+    width: 40%; /* Changed width to 65% to accommodate drives and bookings side by side */
+    display: flex;
+    gap: 20px;
+}
+
+.rides {
+    flex: 1; /* Adjusted flex property to allow equal width for drives and bookings */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rides h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.rides ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rides li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.checkmark {
+    color: green;
+}
+
+.cross {
+    color: red;
+}

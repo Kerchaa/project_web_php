@@ -1,0 +1,108 @@
+/* Improved layout styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2; /* Light gray background */
+}
+
+.container {
+    max-width: 400px; /* Reduced container width for better readability */
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increased border shadow */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray heading color */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increased margin for better separation */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666; /* Medium gray label color */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px; /* Increased padding for better input appearance */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="email"]::placeholder {
+    color: #999; /* Light gray placeholder text */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    outline: none;
+    border-color: #007bff; /* Blue border color on focus */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.success {
+    color: green;
+    margin-top: 10px;
+}
+/* CSS for Error Messages */
+.error-container {
+    margin-top: 10px; /* Add margin at the top */
+    padding: 10px; /* Add padding for spacing */
+}
+
+.error-message {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: #ff0000;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ff0000; /* Add border bottom for each error message */
+    margin-top: 5px; /* Add margin between each error message */
+}
+
+.error-icon {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+
