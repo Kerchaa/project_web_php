@@ -57,6 +57,7 @@ $end_date = explode(' to ', $search_date)[1] ?? '';
                         <option value="Tozeur">Tozeur</option>
                         <option value="Gafsa">Gafsa</option>
                         <option value="Kebili">Kebili</option>
+                        <option value="Djerba">Djerba</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -87,6 +88,7 @@ $end_date = explode(' to ', $search_date)[1] ?? '';
                         <option value="Tozeur">Tozeur</option>
                         <option value="Gafsa">Gafsa</option>
                         <option value="Kebili">Kebili</option>
+                        <option value="Djerba">Djerba</option>
                     </select>
                 </div>
                 <div class="form-group">
